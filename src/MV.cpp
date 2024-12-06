@@ -24,6 +24,12 @@ int main() {
     break;
   case 4:
     cout << "Personnalisation - Configuration" << endl;
+    cout << "**************************************************" << endl
+         << endl;
+    cout << "1 - Définir les paramètres véhicule" << endl;
+    cout << "2 - Choix de la langue" << endl;
+    cout << "3 - Configuration afficheur" << endl << endl;
+    cout << "**************************************************" << endl;
     break;
   default:
     cout << "erreur" << endl;
