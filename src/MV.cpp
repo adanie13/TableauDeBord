@@ -12,14 +12,20 @@ int main() {
   cout << "Quel est votre choix ?: ";
   cin >> choix;
   cout << " Le choix est " << choix << endl;
-
-  if (choix == 1) {
+  switch (choix) {
+  case 1:
     cout << "Multimedia" << endl;
-  } else if (choix == 2) {
+    break;
+  case 2:
     cout << "Téléphone" << endl;
-  } else if (choix == 3) {
+    break;
+  case 3:
     cout << "Connexions" << endl;
-  } else if (choix == 4) {
+    break;
+  case 4:
     cout << "Personnalisation - Configuration" << endl;
+    break;
+  default:
+    cout << "erreur" << endl;
   }
 }
